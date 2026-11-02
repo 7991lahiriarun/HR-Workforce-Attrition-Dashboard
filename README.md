@@ -5,7 +5,7 @@ Workforce & Attrition Dashboard — Analysis Report
 Source: 08_hr_attrition.csv · 1,600 employees
 Prepared by: Arunabha Lahiri
 Report type: Dashboard analysis & insights summary
-Companion to: Power BI portfolio dashboard build
+Companion to: portfolio dashboard build
 Executive Summary
 Across 1,600 employees, overall attrition rate is 23.8%, with average tenure of 4.6 years and average monthly income of $6.6K. The clearest single driver identified is overtime: employees working overtime leave at 35.5% versus 18.8% for those who don't — a gap of 16.7%. Early-tenure employees (under 2 years) also show elevated risk at 33.0%, well above the company-wide average. High performers are not disproportionately leaving (22.8% attrition vs. 23.8% overall), which is a reassuring finding — the company is not preferentially losing its strongest people.
 Detailed Analysis
@@ -28,4 +28,4 @@ Key Recommendations
 4. Continue monitoring job-satisfaction scores as a leading indicator — the sharp drop in attrition above satisfaction level 2 makes it a useful early-warning signal.
 Data & Methodology Notes
 This dataset is synthetically generated for portfolio purposes; attrition, satisfaction and income figures are randomly distributed and do not reflect a real company's workforce. A production version of this analysis would also incorporate exit-interview themes and manager-level attrition clustering, which are not available in this dataset.
-Methodology: figures in this report are computed directly from the underlying row-level dataset (not estimated), using the same aggregation logic as the DAX measures defined for the companion Power BI dashboard, so the numbers here should reconcile with the dashboard's KPI cards and charts.
+Methodology: figures in this report are computed directly from the underlying row-level dataset (not estimated), using the same aggregation logic as the DAX measures defined for the companion dashboard, so the numbers here should reconcile with the dashboard's KPI cards and charts.
